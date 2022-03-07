@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -30,7 +30,9 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "@types/redux-mock-store": "^1.0.3",
+    "prettier": "2.5.1",
+    "redux-mock-store": "^1.5.4"
   },
   "eslintConfig": {
     "extends": [
