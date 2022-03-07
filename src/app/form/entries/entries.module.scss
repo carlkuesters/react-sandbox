@@ -1,0 +1,16 @@
+.entry {
+  margin-bottom: 10px;
+
+  input[type="text"] + label {
+    margin-left: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+}
